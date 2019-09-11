@@ -31,5 +31,9 @@
   ],
   "directories": {
     "test": "tests"
+  },
+  "dependencies": {
+    "lllog": "^1.1.2",
+    "mt188-card-reader-windows-driver": "/var/www/janis-packages/mt188-card-reader-windows-driver"
   }
 }
