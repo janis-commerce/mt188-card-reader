@@ -17,7 +17,7 @@ const intervalId = setInterval(() => {
 
 	attempts++;
 
-	cardReader.getPAN({ contactless: true })
+	cardReader.getPAN({ contactless: false })
 		.then(pan => {
 
 			logger.info();
