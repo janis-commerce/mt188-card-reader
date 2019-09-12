@@ -4,9 +4,9 @@
   "description": "MT188 Card Reader",
   "main": "lib/index.js",
   "scripts": {
-    "test": "export TEST_ENV=true; mocha --exit -R nyan --recursive tests/",
+    "test": "mocha --exit -R nyan --recursive tests/",
     "test-ci": "nyc --reporter=html --reporter=text mocha --recursive tests/",
-    "watch-test": "export TEST_ENV=true; mocha --exit -R nyan -w --recursive tests/",
+    "watch-test": "mocha --exit -R nyan -w --recursive tests/",
     "coverage": "nyc npm test",
     "lint": "eslint lib/ tests/"
   },
@@ -34,6 +34,6 @@
   },
   "dependencies": {
     "lllog": "^1.1.2",
-    "mt188-card-reader-windows-driver": "/var/www/janis-packages/mt188-card-reader-windows-driver"
+    "card-reader": "../mt188-card-reader-windows-driver"
   }
 }
