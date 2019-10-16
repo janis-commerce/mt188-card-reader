@@ -2,7 +2,7 @@
 
 const assert = require('assert');
 const sinon = require('sinon');
-const MT188Driver = require('card-reader');
+const MT188Driver = require('@janiscommerce/mt188-card-reader-windows-driver');
 
 const { MT188CardReader, MT188CardReaderError } = require('../lib');
 

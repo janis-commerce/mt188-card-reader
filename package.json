@@ -33,7 +33,7 @@
     "test": "tests"
   },
   "dependencies": {
-    "card-reader": "../mt188-card-reader-windows-driver",
+    "@janiscommerce/mt188-card-reader-windows-driver": "^1.0.0",
     "lllog": "^1.1.2",
     "node-tlv": "^1.5.10"
   }
