@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/fizzmodsrl/mt188-card-reader.git"
+    "url": "https://github.com/janis-commerce/mt188-card-reader.git"
   },
   "author": "Janis",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/fizzmodsrl/mt188-card-reader.git#readme",
+  "homepage": "https://github.com/janis-commerce/mt188-card-reader.git#readme",
   "devDependencies": {
     "husky": "^2.4.1",
     "eslint": "^5.16.0",
