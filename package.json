@@ -1,6 +1,6 @@
 {
   "name": "@janiscommerce/mt188-card-reader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MT188 Card Reader",
   "main": "lib/index.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "test": "tests"
   },
   "dependencies": {
-    "@janiscommerce/mt188-card-reader-windows-driver": "^1.0.0",
+    "@janiscommerce/mt188-card-reader-windows-driver": "^1.0.1",
     "lllog": "^1.1.2",
     "node-tlv": "^1.5.10"
   }
