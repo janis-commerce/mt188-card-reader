@@ -21,7 +21,6 @@ Gets the card's PAN (card number and expiration date). It handles magnetic card,
 
 * **options** *Object*
 * | **options.contactless**: *Boolean* Indicates whether the card is contactles or not. Default: `false`
-* | **options.clearMagneticCardBuffer**: *Boolean* Indicates whether to clear the magnetic band card buffer before reading. Default: `false`
 
 **Returns** *Object* with `cardNumber`, `expirationMonth` and `expirationYear` properties.
 

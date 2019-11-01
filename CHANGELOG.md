@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.2] - 2019-11-01
+### Fixed
+- clearMagneticCardBuffer option is deprecated. It's now handled internally.
+
 ## [1.0.1] - 2019-10-25
 ### Fixed
 - Windows driver update to fix bug
