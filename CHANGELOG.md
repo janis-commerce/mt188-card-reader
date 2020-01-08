@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.1.1] - 2020-01-08
+### Fixed
+- Now it can read 18-digit card numbers
+
 ## [1.1.0] - 2019-11-01
 ### Added
 - DLL path can now be configured with MT188_DRIVER_LOCATION env variable
